@@ -1,0 +1,55 @@
+{
+  "@@locale": "ar",
+  "home_title": "الرئيسية",
+  "@home_title": {
+    "description": "عنوان الصفحة الرئيسية"
+  },
+  "home_welcome_message": "مرحبًا بك في صفحتك الرئيسية!",
+  "@home_welcome_message": {
+    "description": "رسالة ترحيبية تظهر في الصفحة الرئيسية"
+  },
+  "home_view_details": "عرض التفاصيل",
+  "@home_view_details": {
+    "description": "زر لعرض التفاصيل في الصفحة الرئيسية"
+  },
+  "profile_title": "الملف الشخصي",
+  "@profile_title": {
+    "description": "عنوان صفحة الملف الشخصي"
+  },
+  "profile_name": "الاسم",
+  "@profile_name": {
+    "description": "اسم المستخدم في الملف الشخصي"
+  },
+  "profile_email": "البريد الإلكتروني",
+  "@profile_email": {
+    "description": "عنوان البريد الإلكتروني للمستخدم"
+  },
+  "profile_phone": "الهاتف",
+  "@profile_phone": {
+    "description": "رقم هاتف المستخدم"
+  },
+  "profile_address": "العنوان",
+  "@profile_address": {
+    "description": "عنوان المستخدم"
+  },
+  "orders_title": "الطلبات",
+  "@orders_title": {
+    "description": "عنوان صفحة الطلبات"
+  },
+  "orders_order_history": "تاريخ الطلبات",
+  "@orders_order_history": {
+    "description": "قسم يعرض طلبات المستخدم السابقة"
+  },
+  "orders_no_orders": "لا توجد لديك طلبات بعد.",
+  "@orders_no_orders": {
+    "description": "رسالة تظهر عندما لا يكون لدى المستخدم أي طلبات"
+  },
+  "orders_view_order": "عرض الطلب",
+  "@orders_view_order": {
+    "description": "زر لعرض الطلب الفردي"
+  },
+  "wishlist": "قائمة الرغبات", 
+  "@wishlist": { 
+    "description": "قائمة لعرض الرغبات"
+  }
+}

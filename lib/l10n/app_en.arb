@@ -1,0 +1,55 @@
+{
+  "@@locale": "en",
+  "home_title": "Home",
+  "@home_title": {
+    "description": "The title of the home page"
+  },
+  "home_welcome_message": "Welcome to your home page!",
+  "@home_welcome_message": {
+    "description": "A welcome message shown on the home page"
+  },
+  "home_view_details": "View Details",
+  "@home_view_details": {
+    "description": "Button to view details on the home page"
+  },
+  "profile_title": "Profile",
+  "@profile_title": {
+    "description": "The title of the profile page"
+  },
+  "profile_name": "Name",
+  "@profile_name": {
+    "description": "The user's profile name"
+  },
+  "profile_email": "Email",
+  "@profile_email": {
+    "description": "The user's email address"
+  },
+  "profile_phone": "Phone",
+  "@profile_phone": {
+    "description": "The user's phone number"
+  },
+  "profile_address": "Address",
+  "@profile_address": {
+    "description": "The user's address"
+  },
+  "orders_title": "Orders",
+  "@orders_title": {
+    "description": "The title of the orders page"
+  },
+  "orders_order_history": "Order History",
+  "@orders_order_history": {
+    "description": "A section showing the user's past orders"
+  },
+  "orders_no_orders": "You have no orders yet.",
+  "@orders_no_orders": {
+    "description": "Message shown when the user has no orders"
+  },
+  "orders_view_order": "View Order",
+  "@orders_view_order": {
+    "description": "Button to view an individual order"
+  },
+  "wishlist": "Wishlist", 
+  "@wishlist": { 
+    "description": "Button to preview wishlist"
+  }
+}

@@ -24,7 +24,7 @@ class ApiService {
     final message = "Your verification code is: $otp";
     print(message);
 
-    final url =
+    const url =
         "${MoraApiConstants.sendSmsEndpoint}?api_key=${MoraApiConstants.apiKey}&username=${MoraApiConstants.username}";
 
     try {

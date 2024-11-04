@@ -41,32 +41,32 @@ class _SplashScreenState extends State<SplashScreen>
     _controller.forward();
 
     // Check for token after animation completes
-    _controller.addStatusListener((status) {
-      if (status == AnimationStatus.completed) {
-        _checkTokenAndNavigate();
-      }
-    });
+    // _controller.addStatusListener((status) {
+    //   if (status == AnimationStatus.completed) {
+    //     _checkTokenAndNavigate();
+    //   }
+    // });
   }
 
-  Future<void> _checkTokenAndNavigate() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
-    final token = prefs.getString('auth_token'); // Retrieve token
+  // Future<void> _checkTokenAndNavigate() async {
+  //   SharedPreferences prefs = await SharedPreferences.getInstance();
+  //   final token = prefs.getString('auth_token'); // Retrieve token
 
-    // Navigate based on token presence
-    if (token != null && token.isNotEmpty) {
-      // If token exists, navigate to MainPage
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => MainPage()),
-      );
-    } else {
-      // If no token, navigate to AuthPage
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) => AuthPage()),
-      );
-    }
-  }
+  //   // Navigate based on token presence
+  //   if (token != null && token.isNotEmpty) {
+  //     // If token exists, navigate to MainPage
+  //     Navigator.pushReplacement(
+  //       context,
+  //       MaterialPageRoute(builder: (context) => MainPage()),
+  //     );
+  //   } else {
+  //     // If no token, navigate to AuthPage
+  //     Navigator.pushReplacement(
+  //       context,
+  //       MaterialPageRoute(builder: (context) => AuthPage()),
+  //     );
+  //   }
+  // }
 
   @override
   void dispose() {
